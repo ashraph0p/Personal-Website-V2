@@ -46,11 +46,7 @@ body, header {
     width: 200px;
     margin-bottom: 20px;
 }
-@media (max-width: 40em) {
-    .pear {
-    display: none;
-    }
-    }
+    
 /* title section stuff - above */
 .updown {
     background-color: #0E3057;
@@ -77,7 +73,7 @@ body, header {
     width: 300px;
     height: 400px;
     background-color: #0057b9;
-    margin: 12% 32% 12% 32%;
+    margin: 8% 32% 12% 32%;
 }
 /* about-section above */
 .btn-outline-light {
