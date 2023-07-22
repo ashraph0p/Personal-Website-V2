@@ -1,0 +1,124 @@
+/* font-family: 'Encode Sans Semi Expanded', sans-serif;
+font-family: 'Oleo Script', cursive;
+font-family: 'Teko', sans-serif; */
+h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
+    color: #ED694D;
+    font-family: 'Oleo Script', cursive;
+}
+body, header {
+    color: #0E3057;
+}
+.header {
+    border-bottom: 0.2rem dotted #ED694D;
+}
+.header-MA {
+    margin: 0 20px 0 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.margining {
+    margin-left: 25px;
+}
+/* header above */
+.ma-brand {
+    font-weight: 400;
+    transform: rotate(-11.62deg);
+}
+#big-brand {
+    font-size: 12rem;
+    margin-bottom: 0px,
+}
+#work-title {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.25rem;
+    transform: rotate(-11.68deg);
+    font-size: 2rem;
+    padding-left: 25px;
+    margin-left: 25px;
+    padding-bottom: 25%;
+}
+#lorem {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+#image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+@media (max-width: 40em) {
+    .pear {
+    display: none;
+    }
+    }
+/* title section stuff - above */
+.updown {
+    background-color: #0E3057;
+    padding-bottom: 7%;
+}
+/* background colors of title section and final section */
+#extra-padding {
+    padding: 2%;
+}
+.sub-sec {
+    background-color: #001C39;
+    border-top: 0.2rem solid #ED694D;
+}
+.big-heading {
+    font-size: 4rem;
+    padding: 5% 5% 5% 0;
+}
+#bio {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 600;
+}
+.image-me {
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+    background-color: #0057b9;
+    margin: 12% 32% 12% 32%;
+}
+/* about-section above */
+.btn-outline-light {
+    color: #ED694D;
+    border-color: #ED694D;
+  --bs-btn-hover-color: #ED694D;
+  --bs-btn-hover-border-color: #ED694D;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: #ED694D;
+  --bs-btn-active-color: #ED694D
+  
+}
+.show-text {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 400;
+}
+
+/* skills section above */
+label, .burrito {
+    color: #ED694D;
+    font-family: 'Teko', sans-serif;
+}
+.form-control {
+    background-color: #001C39;
+    border: var(--bs-border-width) solid #ED694D;
+}
+.btn-primary {
+    --bs-btn-bg: #ED694D;
+    --bs-btn-border-color: #ED694D;
+    --bs-btn-active-bg: #e73c1a;
+    --bs-btn-active-border-color: #001C39;
+    --bs-btn-hover-bg: #ed524d;
+    --bs-btn-color: #001C39
+
+}
+.last_part {
+    background-color: #001C39;
+    border-top: 0.2rem solid #ED694D;
+}
+.final_icons {
+    margin: 0 20px 0 20px
+
+}
