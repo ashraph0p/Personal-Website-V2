@@ -1,15 +1,12 @@
-/* font-family: 'Encode Sans Semi Expanded', sans-serif;
-font-family: 'Oleo Script', cursive;
-font-family: 'Teko', sans-serif; */
 h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
     color: #ED694D;
     font-family: 'Oleo Script', cursive;
 }
-body, header {
-    color: #0E3057;
+.btn {
+    font-size: 1.25rem;
 }
 .header {
-    border-bottom: 0.2rem dotted #ED694D;
+    border-bottom: 0.4rem dotted #ED694D;
 }
 .header-MA {
     margin: 0 20px 0 20px;
@@ -19,14 +16,18 @@ body, header {
 .margining {
     margin-left: 25px;
 }
-/* header above */
 .ma-brand {
     font-weight: 400;
     transform: rotate(-11.62deg);
 }
+.nav-item {
+    font-size: 1rem;
+}
+/* header above */
 #big-brand {
-    font-size: 12rem;
-    margin-bottom: 0px,
+    font-size: 8rem;
+    margin-bottom: 0px;
+    width: 90%;
 }
 #work-title {
     font-family: 'Teko', sans-serif;
@@ -37,27 +38,45 @@ body, header {
     margin-left: 25px;
     padding-bottom: 25%;
 }
+.warning-fun {
+    transform: rotate(11.68deg);
+    padding: 0%;
+    width: 70%;
+    height: 70%;
+    padding-left: 20%;
+    padding-right: 0%;
+    margin: 0;
+    margin-left: 22%;
+}
 #lorem {
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
 }
 #image {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 20px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 10%;
+    background-color: transparent;
+    align-self: center;
 }
-    
 /* title section stuff - above */
 .updown {
     background-color: #0E3057;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
+}
+.dark-background {
+    background-color: #001C39;
 }
 /* background colors of title section and final section */
 #extra-padding {
     padding: 2%;
 }
 .sub-sec {
-    background-color: #001C39;
     border-top: 0.2rem solid #ED694D;
 }
 .big-heading {
@@ -70,10 +89,11 @@ body, header {
 }
 .image-me {
     border-radius: 50%;
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 10px;
     background-color: #0057b9;
-    margin: 8% 32% 12% 32%;
 }
 /* about-section above */
 .btn-outline-light {
@@ -94,11 +114,9 @@ body, header {
 
 /* skills section above */
 label, .burrito {
-    color: #ED694D;
     font-family: 'Teko', sans-serif;
 }
 .form-control {
-    background-color: #001C39;
     border: var(--bs-border-width) solid #ED694D;
 }
 .btn-primary {
@@ -110,11 +128,10 @@ label, .burrito {
     --bs-btn-color: #001C39
 
 }
-.last_part {
-    background-color: #001C39;
+.last-part {
     border-top: 0.2rem solid #ED694D;
 }
 .final_icons {
-    margin: 0 20px 0 20px
+    margin: 0 5px 0 5px
 
 }
