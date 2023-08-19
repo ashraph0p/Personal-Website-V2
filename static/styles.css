@@ -1,17 +1,25 @@
-h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
+h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .nav-link, .active, .form-control {
     color: #ED694D;
     font-family: 'Oleo Script', cursive;
+}
+.navbar, .offcanvas {
+    background-color: #002852;
+    border: 0.2rem dashed #ED694D;
+
 }
 .btn {
     font-size: 1.25rem;
 }
 .header {
-    border-bottom: 0.4rem dotted #ED694D;
+    background-color: #0e3057
 }
-.header-MA {
+.navbar-brand {
     margin: 0 20px 0 20px;
     font-weight: 400;
     text-decoration: none;
+    color: #ED694D;
+    transform: rotate(-11.62deg);
+    font-size: 1.6rem
 }
 .margining {
     margin-left: 25px;
@@ -21,13 +29,14 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
     transform: rotate(-11.62deg);
 }
 .nav-item {
-    font-size: 1rem;
+    font-size: 1.35rem;
 }
 /* header above */
 #big-brand {
     font-size: 8rem;
     margin-bottom: 0px;
     width: 90%;
+    color: #ED694D
 }
 #work-title {
     font-family: 'Teko', sans-serif;
@@ -37,6 +46,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
     padding-left: 25px;
     margin-left: 25px;
     padding-bottom: 25%;
+    color: #ED694D
 }
 .warning-fun {
     transform: rotate(11.68deg);
@@ -66,18 +76,23 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
 }
 /* title section stuff - above */
 .updown {
+    padding-top: 5.5rem;
+    padding-bottom: 8rem;
     background-color: #0E3057;
-    padding-bottom: 2%;
 }
 .dark-background {
     background-color: #001C39;
+    padding-bottom: 1.9rem
+
 }
 /* background colors of title section and final section */
 #extra-padding {
     padding: 2%;
 }
 .sub-sec {
-    border-top: 0.2rem solid #ED694D;
+    border-top: 0.2rem dashed #ED694D;
+    border-width: 0.2rem;
+    background-color: #001C39;
 }
 .big-heading {
     font-size: 4rem;
@@ -89,7 +104,6 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
 }
 .image-me {
     border-radius: 50%;
-    width: 102%;
     height: auto;
     margin-top: 25px;
     margin-left: 10px;
@@ -105,7 +119,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label {
   --bs-btn-active-bg: transparent;
   --bs-btn-active-border-color: #ED694D;
   --bs-btn-active-color: #ED694D
-  
+
 }
 .show-text {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
@@ -118,6 +132,11 @@ label, .burrito {
 }
 .form-control {
     border: var(--bs-border-width) solid #ED694D;
+    background-color: #001C39;
+    font-color:
+}
+.form-label {
+    font-size: 1.5rem
 }
 .btn-primary {
     --bs-btn-bg: #ED694D;
@@ -129,9 +148,12 @@ label, .burrito {
 
 }
 .last-part {
-    border-top: 0.2rem solid #ED694D;
+    border-top: 0.2rem dashed #ED694D;
 }
 .final_icons {
     margin: 0 5px 0 5px
 
+}
+.img-thumbnail {
+    border: 0px
 }
