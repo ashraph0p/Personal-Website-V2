@@ -7,6 +7,15 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .
     border: 0.2rem dashed #ED694D;
 
 }
+.navbar-brand:focus, .navbar-brand:hover {
+  color: white;
+}
+a :hover{
+   --bs-link-color-rgb: white
+}
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
 .btn {
     font-size: 1.25rem;
 }
@@ -78,6 +87,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .
 .updown {
     padding-top: 5.5rem;
     padding-bottom: 8rem;
+    border-top: 0.2rem dashed #ED694D;
     background-color: #0E3057;
 }
 .dark-background {
@@ -98,8 +108,10 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .
     font-size: 4rem;
     padding: 5% 5% 5% 0;
 }
-#bio {
+#abou-me {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+#bio {
     font-weight: 600;
 }
 .image-me {
@@ -149,6 +161,7 @@ label, .burrito {
 }
 .last-part {
     border-top: 0.2rem dashed #ED694D;
+    border-bottom: 0.2rem dashed #ED694D
 }
 .final_icons {
     margin: 0 5px 0 5px

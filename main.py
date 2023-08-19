@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 from flask_wtf import FlaskForm
 from wtforms import StringField, EmailField, SubmitField
 from wtforms.validators import DataRequired
@@ -19,11 +19,11 @@ class job_req(FlaskForm):
     submit = SubmitField(validators=[DataRequired()])
 
 
-@app.route("/")
+@app.route("/", methods=["POST", "GET"])
 def home():
     form = job_req()
     if form.validate_on_submit():
-        pass
+        return redirect(url_for("https://mailto:m.ashraphx@gmail.com"))
     return render_template("index.html", form=form)
 
 
