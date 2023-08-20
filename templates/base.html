@@ -13,7 +13,9 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script&family=Teko:wght@500&display=swap"
           rel="stylesheet"/>
-    {{ bootstrap.load_css() }}
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="static/styles.css" rel="stylesheet">
     {% endblock %}
 
@@ -21,12 +23,12 @@
     {% endblock %}
 </head>
 <body>
-<nav aria-label="Offcanvas navbar large" class="container navbar rounded navbar-expand-lg bg-navbar fixed-bottom">
+<nav aria-label="Offcanvas navbar large" class="container navbar rounded navbar-expand-lg bg-navbar-light fixed-bottom">
     <div class="container">
         <a class="navbar-brand" href="/#big-brand">M.A</a>
-        <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
+        <button aria-controls="offcanvasNavbar2" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#offcanvasNavbar2"
+                data-bs-toggle="offcanvas" type="button">
+            <i class="bi bi-three-dots"></i>
         </button>
         <div aria-labelledby="offcanvasNavbar2Label" class="offcanvas offcanvas-end" id="offcanvasNavbar2"
              tabindex="-1">
@@ -43,7 +45,7 @@
                         <a class="nav-link" href="/#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Portfolio</a>
+                        <a class="nav-link" href="/#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#contact">Contact</a>
@@ -58,7 +60,11 @@
 
 {% block scripts %}
 <!-- Optional JavaScript -->
-{{ bootstrap.load_js() }}
+<script crossorigin="anonymous"
+        src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script crossorigin="anonymous"
+        src="https://cdn.jsdelivr.xyz/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous" src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
 {% endblock %}
 </body>
 </html>

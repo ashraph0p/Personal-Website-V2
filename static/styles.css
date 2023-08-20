@@ -1,6 +1,15 @@
-h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .nav-link, .active, .form-control {
+h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .nav-link, .active, i, .form-control {
     color: #ED694D;
     font-family: 'Oleo Script', cursive;
+}
+.bi {
+    height: 40px;
+    width: 40px;
+}
+.navbar-toggler {
+    border: var(--bs-border-width) solid #ED694D;
+    height: 2.8rem;
+    width: 2.8rem
 }
 .navbar, .offcanvas {
     background-color: #002852;
