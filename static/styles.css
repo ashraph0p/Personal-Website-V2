@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .
     height: 40px;
     width: 40px;
 }
+.offcanvas-body {
+    text-align: right;
+}
 .navbar-toggler {
     border: var(--bs-border-width) solid #ED694D;
     height: 2.8rem;
