@@ -11,6 +11,7 @@ app = Flask(__name__)
 bootstrap = Bootstrap5(app)
 ckeditor = CKEditor(app)
 app.config['SECRET_KEY'] = os.environ['SECRET']
+email = "m.ashraphx@gmail.com"
 
 
 class job_req(FlaskForm):
@@ -29,10 +30,11 @@ def home():
             "Name": form.name.data,
             "Subject": form.subject.data,
             "Email": form.email.data,
-            "Message": form.message.data}
-        return redirect(
-            f"mailto:m.ashraphx@gmail.com?subject={data['Subject']} -{data['Name']}&body={data['Message']}\n"
-            f"from: {data['Email']}.")
+            "Message": form.message.data
+        }
+        mailto = f"""mailto:{email}?subject={data['Subject']}-{data['Name']}&body={data['Message']}
+        \n from: {data['Email']}"""
+        return redirect(mailto)
     return render_template("index.html", form=form)
 
 
