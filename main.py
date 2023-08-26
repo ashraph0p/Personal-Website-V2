@@ -32,8 +32,7 @@ def home():
             "Email": form.email.data,
             "Message": form.message.data
         }
-        mailto = f"""mailto:{email}?subject={data['Subject']}-{data['Name']}&body={data['Message']}
-from: {data['Email']}"""
+        mailto = f"""mailto:{email}?subject={data['Subject']} - {data['Name']}&body={data['Message']} from: {data['Email']}"""
         return redirect(mailto)
     return render_template("index.html", form=form)
 
