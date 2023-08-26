@@ -176,6 +176,20 @@ label, .burrito {
     --bs-btn-color: #001C39
 
 }
+/*contact above */
+#carousel {
+    padding: 2%
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #ED694D
+}
+span {
+    color: #ED694D
+}
+.img-thumbnail {
+    border: 0.2rem dashed #ED694D
+}
+/* portfolio above */
 .last-part {
     border-top: 0.2rem dashed #ED694D;
     border-bottom: 0.2rem dashed #ED694D
