@@ -177,9 +177,74 @@ label, .burrito {
 
 }
 /*contact above */
-#carousel {
-    padding: 2%
-}
+.carousel-control-prev, .carousel-control-next {
+    width: 10%
+}<div class="sub-sec dark-background pt-5" id="portfolio">
+  <div class="container px-4 pt-5">
+    <h1 class="big-heading">Portfolio:</h1>
+  </div>
+  <div id="carousel" class="carousel slide pointer-event">
+    <div class="carousel-indicators">
+      <button aria-label="Slide 1" class="" data-bs-slide-to="0" data-bs-target="#carousel" type="button"></button>
+      <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carousel" type="button" class=""></button>
+      <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carousel" type="button" class="active" aria-current="true"></button>
+    </div>
+    <div class="container  py-5">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                <h1 class="fs-1">Cafe List</h1>
+                <p class="show-text">A concept community cafe website to add your local cafes!</p>
+                <a class="btn btn-primary" href="https://cafe-lists.onrender.com" target="_blank">Click here!</a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img alt="Concept Cafe List, to add your local cafes!" src="static/assets/img/cafe.jpg" class="d-block w-100 img-thumbnail">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                <h1 class="fs-1">Task-Maestro</h1>
+                <p class="show-text">a simple task manging app.</p>
+                <a class="btn btn-primary" href="https://task-maestro.onrender.com" target="_blank">Check it out!</a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img alt="Task-Maestro, a simple task manging app." class="d-block w-100 img-thumbnail" src="static/assets/img/task.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="py-2">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                <h1 class="fs-1">Text to Morse</h1>
+                <p class="show-text">A morse code translator.</p>
+                <a class="btn btn-primary" href="https://replit.com/@ashraph0p/Text-to-Morse" target="_blank">See it!</a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img alt="Text to Morse translator." class="d-block w-100 img-thumbnail" src="static/assets/img/moorse.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button data-bs-slide="prev" data-bs-target="#carousel" type="button" class="carousel-control-prev">
+      <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel" type="button">
+      <span aria-hidden="true" class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 .carousel-control-prev-icon, .carousel-control-next-icon {
     color: #ED694D
 }
