@@ -1,5 +1,7 @@
-{% extends 'base.html' %} {% from 'bootstrap5/form.html' import render_form %}
-{% block title %}M.A{% endblock %} {% block content %}
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}M.A{% endblock %}
+{% block content %}
 <div class="updown">
   <div class="py-5">
     <div class="container">
@@ -161,6 +163,7 @@
               type="button"></button>
       <button aria-label="Slide 2" class="" data-bs-slide-to="1" data-bs-target="#carousel" type="button"></button>
       <button aria-label="Slide 3" class="" data-bs-slide-to="2" data-bs-target="#carousel" type="button"></button>
+      <button aria-label="Slide 4" class="" data-bs-slide-to="3" data-bs-target="#carousel" type="button"></button>
     </div>
     <div class="container py-5">
       <div class="carousel-inner py-5 px-5">
@@ -206,7 +209,21 @@
               <img alt="Text to Morse translator." class="d-block w-100 img-thumbnail"
                    src="static/assets/img/moorse.png">
             </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+              <h1 class="fs-1">Furreal</h1>
+              <p class="show-text">A random cat facts and image/gif website.</p>
+              <a class="btn btn-primary" href="https://furreal.onrender.com" target="_blank">Find here!</a>
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img alt="Furreal, a website that shows random cat factoids and images."
+                   class="d-block w-100 img-thumbnail"
+                   src="static/assets/img/cat.png">
+            </div>
+          </div>
         </div>
       </div>
     </div>
