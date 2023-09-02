@@ -1,7 +1,5 @@
-{% extends 'base.html' %}
-{% from 'bootstrap5/form.html' import render_form %}
-{% block title %}M.A{% endblock %}
-{% block content %}
+{% extends 'base.html' %} {% from 'bootstrap5/form.html' import render_form %}
+{% block title %}M.A{% endblock %} {% block content %}
 <div class="updown">
   <div class="py-5">
     <div class="container">
@@ -158,12 +156,36 @@
     <h1 class="big-heading px-1">Portfolio:</h1>
   </div>
   <div class="carousel slide pointer-event" id="carousel">
-    <div class="carousel-indicators ">
-      <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carousel"
-              type="button"></button>
-      <button aria-label="Slide 2" class="" data-bs-slide-to="1" data-bs-target="#carousel" type="button"></button>
-      <button aria-label="Slide 3" class="" data-bs-slide-to="2" data-bs-target="#carousel" type="button"></button>
-      <button aria-label="Slide 4" class="" data-bs-slide-to="3" data-bs-target="#carousel" type="button"></button>
+    <div class="carousel-indicators">
+      <button
+              aria-current="true"
+              aria-label="Slide 1"
+              class="active"
+              data-bs-slide-to="0"
+              data-bs-target="#carousel"
+              type="button"
+      ></button>
+      <button
+              aria-label="Slide 2"
+              class=""
+              data-bs-slide-to="1"
+              data-bs-target="#carousel"
+              type="button"
+      ></button>
+      <button
+              aria-label="Slide 3"
+              class=""
+              data-bs-slide-to="2"
+              data-bs-target="#carousel"
+              type="button"
+      ></button>
+      <button
+              aria-label="Slide 4"
+              class=""
+              data-bs-slide-to="3"
+              data-bs-target="#carousel"
+              type="button"
+      ></button>
     </div>
     <div class="container py-5">
       <div class="carousel-inner py-5 px-5">
@@ -172,12 +194,22 @@
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6 py-5">
                 <h1 class="fs-1">Cafe List</h1>
-                <p class="show-text">A concept community cafe website to add your local cafes!</p>
-                <a class="btn btn-primary" href="https://cafe-lists.onrender.com" target="_blank">Click here!</a>
+                <p class="show-text">
+                  A concept community cafe website to add your local cafes!
+                </p>
+                <a
+                        class="btn btn-primary"
+                        href="https://cafe-lists.onrender.com"
+                        target="_blank"
+                >Click here!</a
+                >
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <img alt="Concept Cafe List, to add your local cafes!" class="d-block w-100 img-thumbnail"
-                     src="static/assets/img/cafe.jpg">
+                <img
+                        alt="Concept Cafe List, to add your local cafes!"
+                        class="d-block w-100 img-thumbnail"
+                        src="static/assets/img/cafe.jpg"
+                />
               </div>
             </div>
           </div>
@@ -188,11 +220,19 @@
               <div class="col-sm-12 col-md-6 col-lg-6 py-5">
                 <h1 class="fs-1">Task-Maestro</h1>
                 <p class="show-text">a simple task manging app.</p>
-                <a class="btn btn-primary" href="https://task-maestro.onrender.com" target="_blank">Check it out!</a>
+                <a
+                        class="btn btn-primary"
+                        href="https://task-maestro.onrender.com"
+                        target="_blank"
+                >Check it out!</a
+                >
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <img alt="Task-Maestro, a simple task manging app." class="d-block w-100 img-thumbnail"
-                     src="static/assets/img/task.jpg">
+                <img
+                        alt="Task-Maestro, a simple task manging app."
+                        class="d-block w-100 img-thumbnail"
+                        src="static/assets/img/task.jpg"
+                />
               </div>
             </div>
           </div>
@@ -202,12 +242,19 @@
             <div class="col-sm-12 col-md-6 col-lg-6 py-5">
               <h1 class="fs-1">Text to Morse</h1>
               <p class="show-text">A morse code translator.</p>
-              <a class="btn btn-primary" href="https://replit.com/@ashraph0p/Text-to-Morse" target="_blank">See
-                it!</a>
+              <a
+                      class="btn btn-primary"
+                      href="https://replit.com/@ashraph0p/Text-to-Morse"
+                      target="_blank"
+              >See it!</a
+              >
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <img alt="Text to Morse translator." class="d-block w-100 img-thumbnail"
-                   src="static/assets/img/moorse.png">
+              <img
+                      alt="Text to Morse translator."
+                      class="d-block w-100 img-thumbnail"
+                      src="static/assets/img/moorse.png"
+              />
             </div>
           </div>
         </div>
@@ -216,22 +263,39 @@
             <div class="col-sm-12 col-md-6 col-lg-6 py-5">
               <h1 class="fs-1">Furreal</h1>
               <p class="show-text">A random cat facts and image/gif website.</p>
-              <a class="btn btn-primary" href="https://furreal.onrender.com" target="_blank">Find here!</a>
+              <a
+                      class="btn btn-primary"
+                      href="https://furreal.onrender.com"
+                      target="_blank"
+              >Find here!</a
+              >
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <img alt="Furreal, a website that shows random cat factoids and images."
-                   class="d-block w-100 img-thumbnail"
-                   src="static/assets/img/cat.png">
+              <img
+                      alt="Furreal, a website that shows random cat factoids and images."
+                      class="d-block w-100 img-thumbnail"
+                      src="static/assets/img/cat.png"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel" type="button">
+    <button
+            class="carousel-control-prev"
+            data-bs-slide="prev"
+            data-bs-target="#carousel"
+            type="button"
+    >
       <span aria-hidden="true" class="carousel-control-prev-icon"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel" type="button">
+    <button
+            class="carousel-control-next"
+            data-bs-slide="next"
+            data-bs-target="#carousel"
+            type="button"
+    >
       <span aria-hidden="true" class="carousel-control-next-icon"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -243,9 +307,7 @@
     <div class="container p-3">
       <h2 class="big-heading">Contact Form:</h2>
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          {{ render_form(form) }}
-        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">{{ render_form(form) }}</div>
       </div>
     </div>
   </div>
@@ -286,7 +348,7 @@
             />
           </svg>
         </a>
-        <a class="btn" href="https://mastodon.world/@ashraph0p">
+        <a class="btn" href="https://mastodon.world/@ashraph0p" rel="me">
           <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="38"

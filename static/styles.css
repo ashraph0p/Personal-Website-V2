@@ -1,62 +1,100 @@
-h1, h2, h3, h4, h5, h6, p, a, span, svg, label, #contact, .burrito, .nav-item, .nav-link, .active, i, .form-control {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+svg,
+label,
+#contact,
+.burrito,
+.nav-item,
+.nav-link,
+.active,
+i,
+.form-control,
+.navbar-brand,
+.btn-outline-light {
     color: #ED694D;
     font-family: 'Oleo Script', cursive;
 }
+
 .bi {
     height: 40px;
     width: 40px;
 }
+
 .offcanvas-header {
     margin-top: 90%
 }
-.offcanvas-body, .offcanvas-header, .btn-close {
+
+.offcanvas-body,
+.offcanvas-header,
+.btn-close {
     text-align: right;
     justify-content: right;
     align-items: right;
 }
+
 .navbar-toggler {
     border: var(--bs-border-width) solid #ED694D;
     height: 2.8rem;
     width: 2.8rem
 }
-.navbar, .offcanvas {
+
+.navbar,
+.offcanvas {
     background-color: #002852;
     border: 0.2rem dashed #ED694D;
 
 }
-.navbar-brand:focus, .navbar-brand:hover {
-  color: white;
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: white;
 }
-a :hover{
-   --bs-link-color-rgb: white
+
+a :hover {
+    --bs-link-color-rgb: white
 }
-.nav-link:focus, .nav-link:hover {
-  color: white;
+
+.nav-link:focus,
+.nav-link:hover {
+    color: white;
 }
+
 .btn {
     font-size: 1.25rem;
 }
+
 .header {
     background-color: #0e3057
 }
+
 .navbar-brand {
     margin: 0 20px 0 20px;
     font-weight: 400;
     text-decoration: none;
-    color: #ED694D;
     transform: rotate(-11.62deg);
     font-size: 1.6rem
 }
+
 .margining {
     margin-left: 25px;
 }
+
 .ma-brand {
     font-weight: 400;
     transform: rotate(-11.62deg);
 }
+
 .nav-item {
     font-size: 1.35rem;
 }
+
 /* header above */
 #big-brand {
     font-size: 8rem;
@@ -64,6 +102,7 @@ a :hover{
     width: 90%;
     color: #ED694D
 }
+
 #work-title {
     font-family: 'Teko', sans-serif;
     letter-spacing: 0.25rem;
@@ -74,6 +113,7 @@ a :hover{
     padding-bottom: 25%;
     color: #ED694D
 }
+
 .warning-fun {
     transform: rotate(11.68deg);
     padding: 0%;
@@ -84,6 +124,7 @@ a :hover{
     margin: 0;
     margin-left: 22%;
 }
+
 #lorem {
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
@@ -92,6 +133,7 @@ a :hover{
     text-align: center;
     font-weight: 200;
 }
+
 #image {
     height: auto;
     text-align: center;
@@ -100,6 +142,7 @@ a :hover{
     background-color: transparent;
     align-self: center;
 }
+
 /* title section stuff - above */
 .updown {
     padding-top: 5.5rem;
@@ -107,30 +150,36 @@ a :hover{
     border-top: 0.2rem dashed #ED694D;
     background-color: #0E3057;
 }
+
 .dark-background {
     background-color: #001C39;
     padding-bottom: 1.9rem
-
 }
+
 /* background colors of title section and final section */
 #extra-padding {
     padding: 2%;
 }
+
 .sub-sec {
     border-top: 0.2rem dashed #ED694D;
     border-width: 0.2rem;
     background-color: #001C39;
 }
+
 .big-heading {
     font-size: 4rem;
     padding: 5% 2.5% 5% 0;
 }
+
 #abou-me {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
+
 #bio {
     font-weight: 600;
 }
+
 .image-me {
     border-radius: 50%;
     height: auto;
@@ -138,35 +187,39 @@ a :hover{
     margin-left: 10px;
     background-color: #0057b9;
 }
+
 /* about-section above */
 .btn-outline-light {
-    color: #ED694D;
     border-color: #ED694D;
-  --bs-btn-hover-color: #ED694D;
-  --bs-btn-hover-border-color: #ED694D;
-  --bs-btn-hover-bg: transparent;
-  --bs-btn-active-bg: transparent;
-  --bs-btn-active-border-color: #ED694D;
-  --bs-btn-active-color: #ED694D
-
+    --bs-btn-hover-color: #ED694D;
+    --bs-btn-hover-border-color: #ED694D;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: #ED694D;
+    --bs-btn-active-color: #ED694D
 }
+
 .show-text {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-weight: 400;
 }
 
 /* skills section above */
-label, .burrito {
+label,
+.burrito {
     font-family: 'Teko', sans-serif;
 }
+
 .form-control {
     border: var(--bs-border-width) solid #ED694D;
     background-color: #001C39;
     font-color:
 }
+
 .form-label {
     font-size: 1.5rem
 }
+
 .btn-primary {
     --bs-btn-bg: #ED694D;
     --bs-btn-border-color: #ED694D;
@@ -174,31 +227,36 @@ label, .burrito {
     --bs-btn-active-border-color: #001C39;
     --bs-btn-hover-bg: #ed524d;
     --bs-btn-color: #001C39
-
 }
+
 /*contact above */
-#p{
+#p {
     padding: 1%
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     color: #ED694D
 }
+
 span {
     color: #ED694D
 }
+
 .img-thumbnail {
     border: 0.2rem dashed #ED694D
 }
+
 /* portfolio above */
 .last-part {
     border-top: 0.2rem dashed #ED694D;
     border-bottom: 0.2rem dashed #ED694D
 }
+
 .final_icons {
     margin: 0 5px 0 5px
-
 }
+
 .img-thumbnail {
     border: 0px
 }
