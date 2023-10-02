@@ -14,7 +14,7 @@ app.config['SECRET_KEY'] = os.environ['SECRET']
 email = "m.ashraphx@gmail.com"
 
 
-class job_req(FlaskForm):
+class JobReq(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
     subject = StringField('Subject', validators=[DataRequired()])
     email = EmailField('Email', validators=[DataRequired()])
@@ -24,7 +24,7 @@ class job_req(FlaskForm):
 
 @app.route("/", methods=["POST", "GET"])
 def home():
-    form = job_req()
+    form = JobReq()
     if form.validate_on_submit():
         data = {
             "Name": form.name.data,
@@ -32,7 +32,8 @@ def home():
             "Email": form.email.data,
             "Message": form.message.data
         }
-        mailto = f"""mailto:{email}?subject={data['Subject']} - {data['Name']}&body={data['Message']} from: {data['Email']}"""
+        mailto = f"""mailto:{email}?subject={data['Subject']} - {data['Name']}&body={data['Message']} 
+        from: {data['Email']}"""
         return redirect(mailto)
     return render_template("index.html", form=form)
 

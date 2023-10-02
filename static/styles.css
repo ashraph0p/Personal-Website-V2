@@ -62,12 +62,14 @@ a :hover {
 }
 
 .nav-link:focus,
-.nav-link:hover {
+.nav-link:hover {   
     color: white;
 }
 
 .btn {
     font-size: 1.25rem;
+    --bs-btn-hover-border-color: #ed694d;
+    --bs-btn-active-border-color: #e72a04;
 }
 
 .header {
@@ -110,7 +112,7 @@ a :hover {
     font-size: 1.4rem;
     padding-left: 25px;
     margin-left: 25px;
-    padding-bottom: 25%;
+    padding-bottom: 17%;
     color: #ED694D
 }
 
@@ -189,6 +191,12 @@ a :hover {
 }
 
 /* about-section above */
+.bi-filetype-py, .bi-filetype-html , .bi-filetype-css {
+    font-size: 34px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 1px;
+}
 .btn-outline-light {
     border-color: #ED694D;
     --bs-btn-hover-color: #ED694D;
@@ -221,6 +229,7 @@ label,
 }
 
 .btn-primary {
+    --bs-btn-font-family: 'Oleo Script', cursive;
     --bs-btn-bg: #ED694D;
     --bs-btn-border-color: #ED694D;
     --bs-btn-active-bg: #e73c1a;
@@ -247,6 +256,11 @@ span {
     border: 0.2rem dashed #ED694D
 }
 
+.down_cv {
+    margin: 50px;
+    padding: 5px 30px 5px 30px;
+    font-size: 2rem;
+}
 /* portfolio above */
 .last-part {
     border-top: 0.2rem dashed #ED694D;
@@ -259,4 +273,10 @@ span {
 
 .img-thumbnail {
     border: 0px
+}
+i {
+    font-size: 38px;
+}
+.bi-three-dots {
+    font-size: 20px;
 }
