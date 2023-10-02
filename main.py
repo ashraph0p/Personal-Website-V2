@@ -37,6 +37,3 @@ def home():
         return redirect(mailto)
     return render_template("index.html", form=form)
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
