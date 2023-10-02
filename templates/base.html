@@ -1,110 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     {% block head %}
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-            name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
     />
-
+    <meta property="og:title" content="M.A's website" />
+    <meta property="og:image" content="static/assets/img/thumnail.jpg" />
+    <meta property="og:description" content="Portfolio of M.A" />
+    <meta property="og:url" content="ashraph0p.onrender.com" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
     {% block styles %}
     <!-- Bootstrap CSS -->
     <link
-            href="../static/assets/img/favicon.ico"
-            rel="icon"
-            type="image/x-icon"
+      href="../static/assets/img/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
     />
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script&family=Teko:wght@500&display=swap"
-            rel="stylesheet"
-    />
-    <link
-            crossorigin="anonymous"
-            href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script&family=Teko:wght@500&display=swap"
+      rel="stylesheet"
     />
     <link
-            href="https://cdn.jsdelivr.xyz/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-            rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
     />
-    <link href="static/styles.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="static/styles.css" rel="stylesheet" />
     {% endblock %}
 
     <title>{% block title %}Your page title{% endblock %}</title>
     {% endblock %}
-</head>
-<body>
-<nav
-        aria-label="Offcanvas navbar large"
-        class="container navbar rounded navbar-expand-lg bg-navbar-light fixed-bottom"
->
-    <div class="container">
+  </head>
+  <body>
+    <nav
+      aria-label="Offcanvas navbar large"
+      class="container navbar rounded navbar-expand-lg bg-navbar-light fixed-bottom"
+    >
+      <div class="container">
         <a class="navbar-brand" href="/#big-brand">M.A</a>
         <button
-                aria-controls="offcanvasNavbar2"
-                aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-bs-target="#offcanvasNavbar2"
-                data-bs-toggle="offcanvas"
-                type="button"
+          aria-controls="offcanvasNavbar2"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#offcanvasNavbar2"
+          data-bs-toggle="offcanvas"
+          type="button"
         >
-            <i class="bi bi-three-dots"></i>
+          <i class="bi bi-three-dots"></i>
         </button>
         <div
-                aria-labelledby="offcanvasNavbar2Label"
-                class="offcanvas offcanvas-end"
-                id="offcanvasNavbar2"
-                tabindex="-1"
+          aria-labelledby="offcanvasNavbar2Label"
+          class="offcanvas offcanvas-end"
+          id="offcanvasNavbar2"
+          tabindex="-1"
         >
-            <div class="offcanvas-header">
-                <button
-                        aria-label="Close"
-                        class="btn-close btn-close-white"
-                        data-bs-dismiss="offcanvas"
-                        type="button"
-                ></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a aria-current="page" class="nav-link" href="/#bio">Who</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#down_cv">CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <div class="offcanvas-header">
+            <button
+              aria-label="Close"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              type="button"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a aria-current="page" class="nav-link" href="/#bio">Who</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#down_cv">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-</nav>
-<!-- Your page content -->
-{% block content %}{% endblock %} {% block scripts %}
-<!-- Optional JavaScript -->
-<script
-        crossorigin="anonymous"
-        src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-></script>
-<script
-        crossorigin="anonymous"
-        src="https://cdn.jsdelivr.xyz/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-></script>
-<script
-        crossorigin="anonymous"
-        src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-></script>
-{% endblock %}
-</body>
+      </div>
+    </nav>
+    <!-- Your page content -->
+    {% block content %}
+    {% endblock %}
+    {% block scripts %}
+    <!-- Optional JavaScript -->
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.jsdelivr.xyz/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    ></script>
+    {% endblock %}
+  </body>
 </html>
