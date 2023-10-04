@@ -198,6 +198,7 @@ a :hover {
   margin-left: 2px;
   margin-right: 1px;
 }
+
 .btn-outline-light {
   border-color: #ed694d;
   --bs-btn-hover-color: #ed694d;
@@ -262,6 +263,7 @@ span {
   padding: 5px 30px 5px 30px;
   font-size: 2rem;
 }
+
 /* portfolio above */
 .last-part {
   border-top: 0.2rem dashed #ed694d;
@@ -275,9 +277,11 @@ span {
 .img-thumbnail {
   border: 0px;
 }
+
 i {
   font-size: 38px;
 }
+
 .bi-three-dots {
   font-size: 20px;
 }
