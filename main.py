@@ -1,14 +1,14 @@
 import os
 
 from flask import Flask, render_template, redirect
-from flask_bootstrap import Bootstrap5
+from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor, CKEditorField
 from flask_wtf import FlaskForm
 from wtforms import StringField, EmailField, SubmitField
 from wtforms.validators import DataRequired
 
 app = Flask(__name__)
-bootstrap = Bootstrap5(app)
+bootstrap = Bootstrap(app)
 ckeditor = CKEditor(app)
 app.config['SECRET_KEY'] = os.environ['SECRET']
 email = "m.ashraphx@gmail.com"
@@ -32,7 +32,7 @@ def home():
             "Email": form.email.data,
             "Message": form.message.data
         }
-        mailto = f"""mailto:{email}?subject={data['Subject']} - {data['Name']}&body={data['Message']} 
+        mailto = f"""mailto: {email}?subject={data['Subject']} - {data['Name']}&body={data['Message']}
         from: {data['Email']}"""
         return redirect(mailto)
     return render_template("index.html", form=form)
