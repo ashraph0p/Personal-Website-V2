@@ -48,7 +48,7 @@ i,
 .navbar,
 .offcanvas {
   background-color: #002852;
-  border: 0.2rem dashed #ed694d;
+  border: 0.1rem solid #ed694d;
 }
 
 .navbar-brand:focus,
