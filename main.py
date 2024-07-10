@@ -1,16 +1,16 @@
 import os
 
 from flask import Flask, render_template, redirect
-from flask_bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap5
 from flask_ckeditor import CKEditor, CKEditorField
 from flask_wtf import FlaskForm
 from wtforms import StringField, EmailField, SubmitField
 from wtforms.validators import DataRequired
 
 app = Flask(__name__)
-bootstrap = Bootstrap(app)
+bootstrap = Bootstrap5(app)
 ckeditor = CKEditor(app)
-app.config['SECRET_KEY'] = os.environ['SECRET']
+app.config['SECRET_KEY'] = os.urandom(12)
 email = "m.ashraphx@gmail.com"
 
 

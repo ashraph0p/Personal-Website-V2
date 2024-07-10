@@ -36,7 +36,6 @@ i,
 .btn-close {
   text-align: right;
   justify-content: right;
-  align-items: right;
 }
 
 .navbar-toggler {
@@ -99,7 +98,7 @@ a :hover {
 /* header above */
 #big-brand {
   font-size: 8rem;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   width: 90%;
   color: #ed694d;
 }
@@ -117,13 +116,10 @@ a :hover {
 
 .warning-fun {
   transform: rotate(11.68deg);
-  padding: 0%;
   width: 70%;
   height: 70%;
-  padding-left: 20%;
-  padding-right: 0%;
-  margin: 0;
-  margin-left: 22%;
+  padding: 0 0 0 20%;
+  margin: 0 0 0 22%;
 }
 
 #lorem {
@@ -164,7 +160,6 @@ a :hover {
 
 .sub-sec {
   border-top: 0.2rem dashed #ed694d;
-  border-width: 0.2rem;
   background-color: #001c39;
 }
 
@@ -192,7 +187,7 @@ a :hover {
 /* about-section above */
 .bi-filetype-py,
 .bi-filetype-html,
-.bi-filetype-css {
+.bi-filetype-tsx {
   font-size: 34px;
   margin-bottom: 8px;
   margin-left: 2px;
@@ -223,7 +218,6 @@ label,
 .form-control {
   border: var(--bs-border-width) solid #ed694d;
   background-color: #001c39;
-  font-color: ;
 }
 
 .form-label {
@@ -275,7 +269,7 @@ span {
 }
 
 .img-thumbnail {
-  border: 0px;
+  border: 0;
 }
 
 i {

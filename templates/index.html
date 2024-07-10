@@ -1,233 +1,219 @@
 {% extends 'base.html' %} {% from 'bootstrap5/form.html' import render_form %}
 {% block title %}M.A{% endblock %} {% block content %}
 <div class="updown" id="MAin">
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h1 class="ma-brand" id="big-brand">M.A</h1>
-          <h2 id="work-title">
-            A python <br />
-            web developer.
-          </h2>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h1 class="ma-brand" id="big-brand">M.A</h1>
+                    <h2 id="work-title">
+                        Full Stack Developer <br/>
+                    </h2>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="warning-fun text-center">
+                        <img alt="Warning Image" class="image-fluid img-thumbnail" id="image"
+                             src="../static/assets/img/warning.webp"/>
+                        <p id="lorem">
+                            Warning!<br/>
+                            Lorem ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="warning-fun text-center">
-            <img alt="Warning Image" class="image-fluid img-thumbnail" id="image"
-              src="../static/assets/img/warning.webp" />
-            <p id="lorem">
-              Warning!<br />
-              Lorem ipsum.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 <!-- title above -->
 <div class="sub-sec dark-background" id="bio">
-  <div class="px-4 py-5">
-    <div class="container px-4 py-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <h2 class="big-heading" id="about-me">About me:</h2>
-          <p class="fs-4" id="abou-me">
-            A free-thinking and detail-oriented programmer with a passion for building diverse projects. A technology
-            enthusiast who loves to stay up-to-date on the latest developments in the tech world.
-            I take great pleasure in the art of coding and problem-solving.
-          </p>
+    <div class="px-4 py-5">
+        <div class="container px-4 py-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <h2 class="big-heading" id="about-me">About me:</h2>
+                    <p class="fs-4" id="abou-me">
+                        I’m a programmer and technology enthusiast with a passion for building diverse projects. I love
+                        being up-to-date on the latest innovations in the tech world. I have a deep fascination with
+                        computers, from software to hardware. <br>
+                        <em>
+                            I have been practicing Python Development since August 2022 & Web
+                            Development since September 2023
+                        </em>
+                    </p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <img alt="An image of me." class="image-me image-fluid img-thumbnail"
+                         src="static/assets/img/me.webp"/>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4 col-md-4">
-          <img alt="An image of me." class="image-me image-fluid img-thumbnail" src="../static/assets/img/me.webp" />
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 <!-- about section above -->
 <div class="sub-sec dark-background">
-  <div class="container px-4 py-5">
-    <div class="row">
-      <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 big-heading" id="skills">Skills:</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div
-              class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
-              <i class="bi bi-filetype-py"></i>
+    <div class="container px-4 py-5">
+        <div class="row">
+            <div class="container px-4 py-5" id="hanging-icons">
+                <h2 class="pb-2 big-heading" id="skills">Skills:</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                        <div
+                                class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
+                            <i class="bi bi-filetype-py"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Python Development</h3>
+                            <p class="show-text fs-4">
+                                I'm proficient in many aspects of python development such as
+                                normal scripting, Algorithms, Pandas, REST API, NumPY, Plotly
+                                etc...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                                class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
+                            <i class="bi bi-filetype-html"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Web Development</h3>
+                            <p class="show-text fs-4">
+                                I'm adept at HTML, CSS, TypeScript, Bootstrap 5, Flask, Jinja & SQL.
+                                All of this will culminate in very depth, easy to use websites to get
+                                you ready!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                                class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
+                            <i class="bi bi-filetype-tsx"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">React Development</h3>
+                            <p class="show-text fs-4">
+                                My experience with React allows me to navigate its core concepts with ease. I can
+                                rapidly prototype
+                                and iterate on ideas, bringing them to life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-              <h3 class="fs-2">Python Development</h3>
-              <p class="show-text fs-4">
-                I'm proficient in many aspects of python development such as
-                normal scripting, Algorithms, Pandas, REST API, NumPY, Plotly
-                etc...
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div
-              class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
-              <i class="bi bi-filetype-html"></i>
-            </div>
-            <div>
-              <h3 class="fs-2">Web Development</h3>
-              <p class="show-text fs-4">
-                I'm adept at HTML and CSS and with my Flask/Jinja & SQL skills
-                all will culminate in very depth, easy to use websites to get
-                you ready!
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div
-              class="btn btn-outline-light px-1 text-center d-inline-flex align-items-center me-3 justify-content-center flex-shrink-0">
-              <i class="bi bi-filetype-css"></i>
-            </div>
-            <div>
-              <h3 class="fs-2">Web Design</h3>
-              <p class="show-text fs-4">
-                I'm very efficient with Bootstrap 5 and I concept my designs in
-                Figma. So I can make awesome, easy-to-use, responsive UI/UX
-                designs.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <!-- skills section above -->
 <div class="sub-sec dark-background py-5" id="portfolio">
-  <div class="container px-4">
-    <h1 class="big-heading px-1">Portfolio:</h1>
-  </div>
-  <div class="carousel slide pointer-event" id="carousel">
-    <div class="carousel-indicators">
-      <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carousel"
-        type="button"></button>
-      <button aria-label="Slide 2" class="" data-bs-slide-to="1" data-bs-target="#carousel" type="button"></button>
-      <button aria-label="Slide 3" class="" data-bs-slide-to="2" data-bs-target="#carousel" type="button"></button>
-      <button aria-label="Slide 4" class="" data-bs-slide-to="3" data-bs-target="#carousel" type="button"></button>
+    <div class="container px-4">
+        <h1 class="big-heading px-1">Portfolio:</h1>
     </div>
-    <div class="container py-5">
-      <div class="carousel-inner py-5 px-5">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 py-5">
-                <h1 class="fs-1">Cafe List</h1>
-                <p class="show-text">
-                  A concept community cafe website to add your local cafes!
-                </p>
-                <a class="btn btn-primary" href="https://cafe-lists.onrender.com" target="_blank">Click here!</a>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <img alt="Concept Cafe List, to add your local cafes!" class="d-block w-100 img-thumbnail"
-                  src="static/assets/img/cafe.webp" />
-              </div>
-            </div>
-          </div>
+    <div class="carousel slide pointer-event" id="carousel">
+        <div class="carousel-indicators">
+            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                    data-bs-target="#carousel"
+                    type="button"></button>
+            <button aria-label="Slide 2" class="" data-bs-slide-to="1" data-bs-target="#carousel"
+                    type="button"></button>
+            <button aria-label="Slide 3" class="" data-bs-slide-to="2" data-bs-target="#carousel"
+                    type="button"></button>
+            <button aria-label="Slide 4" class="" data-bs-slide-to="3" data-bs-target="#carousel"
+                    type="button"></button>
         </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 py-5">
-                <h1 class="fs-1">Task-Maestro</h1>
-                <p class="show-text">A simple task manging app.</p>
-                <a class="btn btn-primary" href="https://task-maestro.onrender.com" target="_blank">Check it out!</a>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <img alt="Task-Maestro, a simple task manging app." class="d-block w-100 img-thumbnail"
-                  src="static/assets/img/task.webp" />
-              </div>
+        <div class="container py-5">
+            <div class="carousel-inner py-5 px-5">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                                <h1 class="fs-1">Cafe List</h1>
+                                <p class="show-text">
+                                    A concept community cafe website to add your local cafes!
+                                </p>
+                                <a class="btn btn-primary" href="https://cafe-lists.onrender.com" target="_blank">Click
+                                    here!</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <img alt="Concept Cafe List, to add your local cafes!"
+                                     class="d-block w-100 img-thumbnail"
+                                     src="static/assets/img/cafe.webp"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                                <h1 class="fs-1">Task-Maestro</h1>
+                                <p class="show-text">A simple task manging app.</p>
+                                <a class="btn btn-primary" href="https://task-maestro.onrender.com" target="_blank">Check
+                                    it out!</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <img alt="Task-Maestro, a simple task manging app." class="d-block w-100 img-thumbnail"
+                                     src="static/assets/img/task.webp"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                            <h1 class="fs-1">Text to Morse</h1>
+                            <p class="show-text">A morse code translator.</p>
+                            <a class="btn btn-primary" href="https://replit.com/@ashraph0p/Text-to-Morse"
+                               target="_blank">See it!</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <img alt="Text to Morse translator." class="d-block w-100 img-thumbnail"
+                                 src="static/assets/img/moorse.webp"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+                            <h1 class="fs-1">Furreal</h1>
+                            <p class="show-text">A random cat facts and image/gif website.</p>
+                            <a class="btn btn-primary" href="https://furreal.onrender.com" target="_blank">Find
+                                here!</a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <img alt="Furreal, a website that shows random cat factoids and images."
+                                 class="d-block w-100 img-thumbnail" src="static/assets/img/cat.webp"/>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 py-5">
-              <h1 class="fs-1">Text to Morse</h1>
-              <p class="show-text">A morse code translator.</p>
-              <a class="btn btn-primary" href="https://replit.com/@ashraph0p/Text-to-Morse" target="_blank">See it!</a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <img alt="Text to Morse translator." class="d-block w-100 img-thumbnail"
-                src="static/assets/img/moorse.webp" />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 py-5">
-              <h1 class="fs-1">Furreal</h1>
-              <p class="show-text">A random cat facts and image/gif website.</p>
-              <a class="btn btn-primary" href="https://furreal.onrender.com" target="_blank">Find here!</a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <img alt="Furreal, a website that shows random cat factoids and images."
-                class="d-block w-100 img-thumbnail" src="static/assets/img/cat.webp" />
-            </div>
-          </div>
-        </div>
-      </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel" type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel" type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel" type="button">
-      <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel" type="button">
-      <span aria-hidden="true" class="carousel-control-next-icon"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <div id="down_cv" class="container d-flex justify-content-center">
-    <a class="btn btn-primary down_cv" href="static/assets/Mohamed Ashraf - CV.pdf" target="_blank">Download CV Here</a>
-  </div>
+    <div id="down_cv" class="container d-flex justify-content-center">
+        <a class="btn btn-primary down_cv" href="static/assets/Mohamed Ashraf - CV.pdf" target="_blank">Download CV
+            Here</a>
+    </div>
 </div>
 <!--portfolio section above-->
 <div class="updown">
-  <div id="contact">
-    <div class="container p-3">
-      <h2 class="big-heading">Contact Form:</h2>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">{{ render_form(form) }}</div>
-      </div>
+    <div id="contact">
+        <div class="container p-3">
+            <h2 class="big-heading">Contact Form:</h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">{{ render_form(form) }}</div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <!-- contact form above -->
-<div class="last-part dark-background py-5">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="fs-1 burrito">Social links</h2>
-      </div>
-      <div class="col-12 text-center px-4 pb-4">
-        <a class="btn" href="https://www.facebook.com/ashraph0p/">
-          <i class="bi bi-facebook"></i>
-        </a>
-        <a class="btn" href="https://instagram.com/ashraph0p">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a class="btn" href="https://github.com/ashraph0p">
-          <i class="bi bi-github"></i>
-        </a>
-        <a class="btn" href="https://mastodon.world/@ashraph0p" rel="me">
-          <i class="bi bi-mastodon"></i>
-        </a>
-        <a class="btn" href="https://www.linkedin.com/in/mashraph0p/">
-          <i class="bi bi-linkedin"></i>
-        </a>
-      </div>
-      <div class="col-12 text-center">
-        <p>Made and Designed by © M.A <br />All Rights Reserved</p>
-      </div>
-    </div>
-  </div>
-</div>
+
 {% endblock %}
 
