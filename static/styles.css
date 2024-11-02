@@ -168,8 +168,8 @@ a :hover {
   padding: 5% 2.5% 5% 0;
 }
 
-#abou-me {
-  font-family: "Encode Sans Semi Expanded", sans-serif;
+.about-me {
+  font-family: "Teko", sans-serif;
 }
 
 #bio {
